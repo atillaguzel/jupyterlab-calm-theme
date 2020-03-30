@@ -2,7 +2,7 @@
 
 Calm Theme for JupyterLab
 
-## To-do
+## To-do
 
 - Add credit/disclaimer
 - Change CSS
