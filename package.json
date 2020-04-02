@@ -1,7 +1,7 @@
 {
-  "name": "@mohirio/jupyterlab-horizon-theme",
+  "name": "@atillaguzel/jupyterlab-calm-theme",
   "version": "2.0.0",
-  "description": "VSCode Horizon Theme port for JupyterLab",
+  "description": "VSCode calm Theme port for JupyterLab",
   "author": "Mohammad Almogbel <almogbelmohi@gmail.com>",
   "keywords": [
     "jupyter",
@@ -60,12 +60,12 @@
     "themeDir": "static",
     "themePath": "static/index.css"
   },
-  "homepage": "https://github.com/mohirio/jupyterlab-horizon-theme",
+  "homepage": "https://github.com/mohirio/jupyterlab-calm-theme",
   "bugs": {
-    "url": "https://github.com/mohirio/jupyterlab-horizon-theme/issues"
+    "url": "https://github.com/mohirio/jupyterlab-calm-theme/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mohirio/jupyterlab-horizon-theme.git"
+    "url": "https://github.com/mohirio/jupyterlab-calm-theme.git"
   }
 }

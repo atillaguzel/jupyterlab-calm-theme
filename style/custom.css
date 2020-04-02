@@ -1,5 +1,5 @@
 body {
-  background: #232530;
+  background: #011627;
 }
 
 /* Change the colour of linenumbers */
@@ -7,27 +7,27 @@ body {
   padding: 0 3px 0 5px;
   min-width: 20px;
   text-align: right;
-  color: var(--horizon-dark-gray);
+  color: var(--calm-dark-gray);
   white-space: nowrap;
 }
 
 /* This is the region where the linenumbers are */
 .CodeMirror-gutters {
-  border-right: 1px solid var(--horizon-dark-bg-hl);
-  background-color: var(--horizon-dark-bg);
+  border-right: 1px solid var(--calm-dark-bg-hl);
+  background-color: var(--calm-dark-bg);
   white-space: nowrap;
 }
 
 /* Do some nice things with brackets */
 div.CodeMirror span.CodeMirror-matchingbracket {
-  color: var(--horizon-function);
-  border-bottom: 1px solid var(--horizon-dark-blue);
+  color: var(--calm-function);
+  border-bottom: 1px solid var(--calm-dark-blue);
   line-height: 1;
 }
 
 div.CodeMirror span.CodeMirror-nonmatchingbracket {
-  color: var(--horizon-red);
-  border-bottom: 1px solid var(--horizon-dark-red-1);
+  color: var(--calm-red);
+  border-bottom: 1px solid var(--calm-dark-red-1);
   line-height: 0.55;
 }
 
@@ -39,23 +39,23 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 }
 
 .CodeMirror-selected {
-  background: var(--horizon-selection);
+  background: var(--calm-selection);
 }
 
 /* selected text highlight */
 .CodeMirror-focused .CodeMirror-selected {
-  background: var(--horizon-selection);
+  background: var(--calm-selection);
 }
 
 /* Item selected in menu for files and what not */
 .jp-DirListing-item.jp-mod-selected {
   color: white;
-  background: var(--horizon-dark-bg-hl);
+  background: var(--calm-dark-bg-hl);
 }
 
 /* Makes the running icon a tiny bit bigger */
 .jp-DirListing-item.jp-mod-running .jp-DirListing-itemIcon:before {
-  color: var(--horizon-dark-green);
+  color: var(--calm-dark-green);
   content: "\25CF";
   font-size: 8px;
   position: absolute;
@@ -66,7 +66,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 .p-Menu-item:hover:not([data-type="separator"]),
 .jp-FileBrowser-toolbar.jp-Toolbar .jp-ToolbarButtonComponent:hover,
 .jp-SideBar.p-TabBar.jp-mod-left .p-TabBar-tab:hover {
-  background: var(--horizon-dark-bg-hl);
+  background: var(--calm-dark-bg-hl);
 }
 
 /* width */
@@ -82,18 +82,18 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--horizon-dark-mono-3);
+  background: var(--calm-dark-mono-3);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--horizon-dark-mono-3);
+  background: var(--calm-dark-mono-3);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb:active {
-  background: var(--horizon-dark-blue);
+  background: var(--calm-dark-blue);
 }
 
 /* Center any plots e.g. Matplotlib plots */
@@ -104,17 +104,17 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 /* Markdown File Icon */
 
 .jp-icon-contrast0[fill] {
-    fill: var(--horizon-dark-red-2);
+    fill: var(--calm-dark-red-2);
 }
 
 .jp-Completer-item.jp-mod-active {
-  color: var(--horizon-dark-fg);
-  background: var(--horizon-dark-bg-hl);
+  color: var(--calm-dark-fg);
+  background: var(--calm-dark-bg-hl);
 }
 
 /* Change the default blue color when hovering the collapser */
 .jp-Notebook .jp-Cell.jp-mod-active .jp-Collapser:hover {
-  background: var(--horizon-dark-red-1);
+  background: var(--calm-dark-red-1);
 }
 
 /* Custom line rule */
@@ -126,8 +126,8 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   margin-right: 0em;
   border-style: inset;
   border-width: 1px;
-  border-top: 1px solid var(--horizon-dark-fg);
-  border-bottom: 1px solid var(--horizon-dark-fg);
+  border-top: 1px solid var(--calm-dark-fg);
+  border-bottom: 1px solid var(--calm-dark-fg);
 }
 
 .jp-MarkdownOutput {
@@ -139,56 +139,56 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 }
 
 .CodeMirror-linenumber {
-  color: var(--horizon-dark-gray);
+  color: var(--calm-dark-gray);
 }
 
 .cm-s-zenburn {
-  background-color: var(--horizon-dark-bg);
-  color: var(--horizon-dark-fg);
+  background-color: var(--calm-dark-bg);
+  color: var(--calm-dark-fg);
 }
 
 .cm-s-zenburn .CodeMirror-gutters {
-  background: var(--horizon-dark-bg) !important;
+  background: var(--calm-dark-bg) !important;
 }
 
 .cm-s-jupyter span.cm-property {
-  color: var(--horizon-variable);
+  color: var(--calm-variable);
 }
 .cm-s-jupyter span.cm-attribute {
-  color: var(--horizon-function);
+  color: var(--calm-function);
 }
 .cm-s-jupyter span.cm-keyword {
-  color: var(--horizon-keyword);
+  color: var(--calm-keyword);
 }
 .cm-s-jupyter span.cm-string {
-  color: var(--horizon-string);
+  color: var(--calm-string);
 }
 .cm-s-jupyter span.cm-operator {
-  color: var(--horizon-dark-fg);
+  color: var(--calm-dark-fg);
 }
 .cm-s-jupyter span.cm-builtin {
-  color: var(--horizon-function);
+  color: var(--calm-function);
 }
 
 .cm-s-jupyter span.cm-variable-2 {
-  color: var(--horizon-dark-orange-1);
+  color: var(--calm-dark-orange-1);
 }
 .cm-s-jupyter span.cm-variable-3 {
-  color: var(--horizon-dark-green);
+  color: var(--calm-dark-green);
 }
 
 .cm-s-jupyter span.cm-error {
-  background: var(--horizon-light-bg);
-  color: var(--horizon-error);
+  background: var(--calm-light-bg);
+  color: var(--calm-error);
 }
 .cm-s-jupyter span.cm-bracket {
-  color: var(--horizon-red);
+  color: var(--calm-red);
 }
 .cm-s-jupyter span.cm-tag {
-  color: var(--horizon-variable);
+  color: var(--calm-variable);
 }
 .cm-s-jupyter span.cm-link {
-  color: var(--horizon-string);
+  color: var(--calm-string);
 }
 
 .widget-box .widget-label {
@@ -200,7 +200,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 }
 
 .jp-OutputArea-child .jp-OutputArea-output {
-  background-color: #232530;
+  background-color: #011627;
   border-radius: 5px;
 }
 

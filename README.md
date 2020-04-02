@@ -13,4 +13,4 @@ Please report any issues you might have and I'll try to get it fixed as soon as 
 
 ## Credit
 
-Thanks to [@mohirio/jupyterlab-horizon-theme](https://github.com/mohirio/jupyterlab-horizon-theme) for the inspiration and great repo.
+Thanks to [@atillaguzel/jupyterlab-calm-theme](https://github.com/mohirio/jupyterlab-calm-theme) for the inspiration and great repo.

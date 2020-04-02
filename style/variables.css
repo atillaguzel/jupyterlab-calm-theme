@@ -33,38 +33,38 @@ all of MD as it is not optimized for dense, information rich UIs.
    * https://material-components-web.appspot.com/elevation.html
    */
 
-  --horizon-dark-cyan: #59e1e3;
-  --horizon-dark-blue: #26bbd9;
-  --horizon-dark-bg-1: #121417;
-  --horizon-dark-mono-2: #828997;
-  --horizon-dark-red-1: #e95678;
-  --horizon-dark-mono-1: #abb2bf;
-  --horizon-dark-silver: #aaaaaa;
-  --horizon-dark-purple: #b877db;
-  --horizon-dark-orange-2: #e5c07b;
-  --horizon-dark-bg-hl: #232530;
-  --horizon-dark-black: #0f1011;
-  --horizon-dark-gutter: #2e303e;
-  --horizon-dark-fg: #abb2bf;
-  --horizon-dark-green: #29d398;
-  --horizon-dark-red-2: #e95678;
-  --horizon-dark-orange-1: #d19a66;
-  --horizon-dark-mono-3: #5c6370;
-  --horizon-dark-accent: #6c6f93;
-  --horizon-dark-bg: #1c1e26;
-  --horizon-dark-gray: #2e303e;
-  --horizon-bg: #1c1e26;
-  --horizon-light-bg: #232530;
-  --horizon-accent-1: #6c6f93;
-  --horizon-error: #f43e5c;
-  --horizon-accent-2: #e95378;
-  --horizon-selection: #2e303e;
-  --horizon-keyword: #b877dbe6;
-  --horizon-variable: #e95678e6;
-  --horizon-function: #25b0bce6;
-  --horizon-constant: #f09483e6;
-  --horizon-class: #fac29ae6;
-  --horizon-string: #fab795e6;
+  --calm-dark-cyan: #21c7a8;
+  --calm-dark-blue: #82aaff;
+  --calm-dark-bg-1: #121417;
+  --calm-dark-mono-2: #828997;
+  --calm-dark-red-1: #e95678;
+  --calm-dark-mono-1: #abb2bf;
+  --calm-dark-silver: #aaaaaa;
+  --calm-dark-purple: #b877db;
+  --calm-dark-orange-2: #e5c07b;
+  --calm-dark-bg-hl: #011627;
+  --calm-dark-black: #011627;
+  --calm-dark-gutter: #2e303e;
+  --calm-dark-fg: #abb2bf;
+  --calm-dark-green: #22da6e;
+  --calm-dark-red-2: #e95678;
+  --calm-dark-orange-1: #d19a66;
+  --calm-dark-mono-3: #5c6370;
+  --calm-dark-accent: #6c6f93;
+  --calm-dark-bg: #011627;
+  --calm-dark-gray: #2e303e;
+  --calm-bg: #011627;
+  --calm-light-bg: #011627;
+  --calm-accent-1: #6c6f93;
+  --calm-error: #f43e5c;
+  --calm-accent-2: #e95378;
+  --calm-selection: #2e303e;
+  --calm-keyword: #b877dbe6;
+  --calm-variable: #e95678e6;
+  --calm-function: #25b0bce6;
+  --calm-constant: #f09483e6;
+  --calm-class: #fac29ae6;
+  --calm-string: #fab795e6;
 
 
   --jp-shadow-base-lightness: 32;
@@ -121,10 +121,10 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   --jp-border-width: 1px;
-  --jp-border-color0: var(--horizon-dark-gray);
-  --jp-border-color1: var(--horizon-dark-gray);
-  --jp-border-color2: var(--horizon-dark-gray);
-  --jp-border-color3: var(--horizon-dark-gray);
+  --jp-border-color0: var(--calm-dark-gray);
+  --jp-border-color1: var(--calm-dark-gray);
+  --jp-border-color2: var(--calm-dark-gray);
+  --jp-border-color3: var(--calm-dark-gray);
   --jp-border-radius: 1px;
 
   /* UI Fonts
@@ -151,10 +151,10 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   /* Defaults use Material Design specification */
-  --jp-ui-font-color0: var(--horizon-dark-mono-1);
-  --jp-ui-font-color1: var(--horizon-dark-mono-1);
-  --jp-ui-font-color2: var(--horizon-dark-mono-1);
-  --jp-ui-font-color3: var(--horizon-dark-mono-1);
+  --jp-ui-font-color0: var(--calm-dark-mono-1);
+  --jp-ui-font-color1: var(--calm-dark-mono-1);
+  --jp-ui-font-color2: var(--calm-dark-mono-1);
+  --jp-ui-font-color3: var(--calm-dark-mono-1);
 
   /*
    * Use these against the brand/accent/warn/error colors.
@@ -195,7 +195,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Defaults use Material Design specification */
   --jp-content-font-color0: rgba(255, 255, 255, 1);
-  --jp-content-font-color1: var(--horizon-dark-fg);
+  --jp-content-font-color1: var(--calm-dark-fg);
   --jp-content-font-color2: rgba(255, 255, 255, 0.7);
   --jp-content-font-color3: rgba(255, 255, 255, 0.5);
   --jp-content-link-color: var(--md-blue-300);
@@ -225,11 +225,11 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from light to dark.
    */
 
-  --jp-layout-color0: var(--horizon-dark-bg);
-  --jp-layout-color1: var(--horizon-dark-bg);
-  --jp-layout-color2: var(--horizon-bg);
-  --jp-layout-color3: var(--horizon-dark-bg-hl);
-  --jp-layout-color4: var(--horizon-dark-bg-1);
+  --jp-layout-color0: var(--calm-dark-bg);
+  --jp-layout-color1: var(--calm-dark-bg);
+  --jp-layout-color2: var(--calm-bg);
+  --jp-layout-color3: var(--calm-dark-bg-hl);
+  --jp-layout-color4: var(--calm-dark-bg-1);
 
   /* Inverse Layout
    *
@@ -246,7 +246,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* Brand/accent */
 
   --jp-brand-color0: var(--md-blue-700);
-  --jp-brand-color1: var(--horizon-dark-blue);
+  --jp-brand-color1: var(--calm-dark-blue);
   --jp-brand-color2: var(--md-blue-300);
   --jp-brand-color3: var(--md-blue-100);
 
@@ -285,8 +285,8 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-collapser-min-height: 20px;
   --jp-cell-collapser-not-active-hover-opacity: 0.6;
 
-  --jp-cell-editor-background: var(--horizon-dark-bg);
-  --jp-cell-editor-border-color: var(--horizon-dark-gray);
+  --jp-cell-editor-background: var(--calm-dark-bg);
+  --jp-cell-editor-border-color: var(--calm-dark-gray);
   --jp-cell-editor-box-shadow: inset 0 0 2px var(--md-blue-300);
   --jp-cell-editor-active-background: var(--jp-layout-color0);
   --jp-cell-editor-active-border-color: var(--jp-brand-color1);
@@ -296,15 +296,15 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-prompt-letter-spacing: 0px;
   --jp-cell-prompt-opacity: 1;
   --jp-cell-prompt-not-active-opacity: 1;
-  --jp-cell-prompt-not-active-font-color: var(--horizon-dark-mono-1);
+  --jp-cell-prompt-not-active-font-color: var(--calm-dark-mono-1);
   --jp-cell-inprompt-font-color: var(--jp-brand-color1);
-  --jp-cell-outprompt-font-color: var(--horizon-dark-mono-1);
+  --jp-cell-outprompt-font-color: var(--calm-dark-mono-1);
 
   /* Notebook specific styles */
 
   --jp-notebook-padding: 10px;
   --jp-notebook-select-background: var(--jp-layout-color1);
-  --jp-notebook-multiselected-color: var(--horizon-dark-gray);
+  --jp-notebook-multiselected-color: var(--calm-dark-gray);
 
   /* The scroll padding is calculated to fill enough space at the bottom of the
   notebook to show one single-line cell (with appropriate padding) at the top
@@ -351,46 +351,46 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* General editor styles */
 
-  --jp-editor-selected-background: var(--horizon-dark-bg-hl);
-  --jp-editor-selected-focused-background: var(--horizon-dark-bg-hl);
-  --jp-editor-cursor-color: var(--horizon-dark-blue);
+  --jp-editor-selected-background: var(--calm-dark-bg-hl);
+  --jp-editor-selected-focused-background: var(--calm-dark-bg-hl);
+  --jp-editor-cursor-color: var(--calm-dark-blue);
 
   /* Code mirror specific styles */
 
-  --jp-mirror-editor-keyword-color: var(--horizon-dark-purple);
+  --jp-mirror-editor-keyword-color: var(--calm-dark-purple);
   --jp-mirror-editor-atom-color: var(--md-blue-300);
-  --jp-mirror-editor-number-color: var(--horizon-dark-orange-1);
-  --jp-mirror-editor-def-color: var(--horizon-dark-blue);
-  --jp-mirror-editor-variable-color: var(--horizon-dark-mono-1);
-  --jp-mirror-editor-variable-2-color: var(--horizon-dark-mono-1);
+  --jp-mirror-editor-number-color: var(--calm-dark-orange-1);
+  --jp-mirror-editor-def-color: var(--calm-dark-blue);
+  --jp-mirror-editor-variable-color: var(--calm-dark-mono-1);
+  --jp-mirror-editor-variable-2-color: var(--calm-dark-mono-1);
   --jp-mirror-editor-variable-3-color: var(--md-grey-600);
   --jp-mirror-editor-punctuation-color: yellow;
-  --jp-mirror-editor-property-color: var(--horizon-dark-red-1);
-  --jp-mirror-editor-operator-color: var(--horizon-dark-mono-1);
-  --jp-mirror-editor-comment-color: var(--horizon-dark-mono-3);
-  --jp-mirror-editor-string-color: var(--horizon-dark-orange-1);
+  --jp-mirror-editor-property-color: var(--calm-dark-red-1);
+  --jp-mirror-editor-operator-color: var(--calm-dark-mono-1);
+  --jp-mirror-editor-comment-color: var(--calm-dark-mono-3);
+  --jp-mirror-editor-string-color: var(--calm-dark-orange-1);
   --jp-mirror-editor-string-2-color: #f50;
   --jp-mirror-editor-meta-color: #aa22ff;
   --jp-mirror-editor-qualifier-color: #555;
-  --jp-mirror-editor-builtin-color: var(--horizon-dark-purple);
-  --jp-mirror-editor-bracket-color: var(--horizon-dark-mono-1);
+  --jp-mirror-editor-builtin-color: var(--calm-dark-purple);
+  --jp-mirror-editor-bracket-color: var(--calm-dark-mono-1);
   --jp-mirror-editor-tag-color: var(--md-green-700);
-  --jp-mirror-editor-attribute-color: var(--horizon-dark-red-1);
+  --jp-mirror-editor-attribute-color: var(--calm-dark-red-1);
   --jp-mirror-editor-header-color: var(--md-blue-500);
   --jp-mirror-editor-quote-color: var(--md-green-300);
-  --jp-mirror-editor-link-color: var(--horizon-dark-red-1);
+  --jp-mirror-editor-link-color: var(--calm-dark-red-1);
   --jp-mirror-editor-error-color: #f00;
   --jp-mirror-editor-hr-color: #ffffff;
 
   /* Vega extension styles */
 
-  --jp-vega-background: var(--horizon-dark-bg-1);
+  --jp-vega-background: var(--calm-dark-bg-1);
 
   /* Sidebar-related styles */
   
   --jp-sidebar-min-width: 180px;
 
-  --jp-main-dock-panel-background: var(--horizon-dark-bg-1);
+  --jp-main-dock-panel-background: var(--calm-dark-bg-1);
   
   /* Search-related styles */
 
